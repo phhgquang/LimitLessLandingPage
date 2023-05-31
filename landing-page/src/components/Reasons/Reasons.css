@@ -3,6 +3,24 @@
   display: flex;
   grid-template: 2rem;
 }
+.reasons-blur-1 {
+  width: 32rem;
+  height: 23rem;
+  top: 6rem;
+  left: 0rem;
+  /* border-radius: 50%;
+  filter: blur(212px);
+  position: fixed; */
+}
+.reasons-blur-2 {
+  width: 32rem;
+  height: 23rem;
+  top: 10rem;
+  right: 0rem;
+  border-radius: 50%;
+  filter: blur(212px);
+  position: fixed;
+}
 .left-r {
   flex: 1 1;
   display: grid;

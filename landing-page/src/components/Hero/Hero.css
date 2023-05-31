@@ -16,7 +16,7 @@
   position: relative;
 }
 .the-best-ad {
-  margin-top: 4rem;
+  margin-top: 2rem;
   background-color: #363d42;
   border-radius: 4rem;
   width: fit-content;
@@ -139,7 +139,7 @@
   padding: 1rem;
   width: max-content;
   position: absolute;
-  top: 35rem;
+  top: 33rem;
   right: 29rem;
 }
 .calories > img {
@@ -156,4 +156,24 @@
 .calories > div > :nth-child(2) {
   color: white;
   font-size: 1.5rem;
+}
+.hero-blur {
+  width: 22rem;
+  height: 30rem;
+  left: 0;
+}
+.appstore {
+  width: 13.4rem;
+  position: absolute;
+  right: 9.9rem;
+  top: 0rem;
+  cursor: pointer;
+}
+.chplay {
+  right: 12.1rem;
+  position: absolute;
+  width: 8.9rem;
+  height: 3.7rem;
+  top: 4rem;
+  cursor: pointer;
 }

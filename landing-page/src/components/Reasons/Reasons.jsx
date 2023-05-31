@@ -12,6 +12,8 @@ import tick from "../../assets/tick.png";
 const Reasons = () => {
   return (
     <div className="Reasons" id="reasons">
+      {/* <div className="blur reasons-blur-1"></div> */}
+      {/* <div className="blur reasons-blur-2"></div> */}
       <div className="left-r">
         <img src={image1} alt="" />
         <img src={image2} alt="" />

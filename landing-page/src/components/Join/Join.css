@@ -23,12 +23,12 @@
 }
 .right-j {
   display: flex;
-  justify-self: center;
+  justify-content: center;
   align-items: flex-end;
 }
 .email-container {
   display: flex;
-  gap: 3rem;
+  gap: 9rem;
   background-color: gray;
   padding: 1rem 2rem;
 }
