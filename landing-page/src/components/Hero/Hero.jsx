@@ -74,7 +74,9 @@ const Hero = () => {
         </div>
       </div>
       <div className="right-h">
-        <img className="appstore" src={appstore} alt="" />
+        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fexpo.dev%2Faccounts%2Fvinh-2%2Fprojects%2FLimitLess%2Fbuilds%2Fc9af8a2e-20ae-49c2-83df-b9bf28ce3421%3Ffbclid%3DIwAR3x-ST7zjcXOMQghV0G7jkTUoFAVC_K4mI3wUmX9ul7ILWZDBlAE2CejHM&h=AT1htqqY-ZpvrwwDy2Io_rdeAChatNid5-3kSb8P6Z47FZNrtjHzez_Tu-9_0qwbL_LEaZMHnBsjGNnBLuSNzE-wN8msYryKRqEwRuAiuD65EMEvB3AgBs5WrH6QKaF4DyRPzd-YqPc">
+          <img className="appstore" src={appstore} alt="" />
+        </a>
         <img className="chplay" src={chplay} alt="" />
         <button className="btn">Join Now</button>
 
