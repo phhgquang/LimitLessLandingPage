@@ -33,7 +33,7 @@
 .right-t > img {
   position: absolute;
   widows: 17rem;
-  height: 20rem;
+  height: 18rem;
   object-fit: cover;
   right: 8rem;
   top: 2rem;
@@ -65,4 +65,36 @@
 .arrows > img {
   width: 1.5rem;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .Testimonials {
+    flex-direction: column;
+  }
+  .left-t > :nth-child(2),
+  .left-t > :nth-child(3) {
+    font-size: xx-large;
+  }
+  .right-t {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .right-t > div {
+    position: relative;
+    display: none;
+  }
+  .right-t > img {
+    top: 0;
+    right: 0;
+    position: relative;
+    align-self: center;
+  }
+  .right-t > :last-child {
+    display: flex;
+    bottom: 0;
+    left: 0;
+  }
 }
